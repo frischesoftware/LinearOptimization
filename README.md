@@ -31,5 +31,5 @@ Technology:
 -----------
 - lots of Javascript, using Angular.js, in particular for the two-way databinding
 - C#/ASP.NET to generate the scenarios and create the Javascript code
-- since most elements on the page are randomly generated and I wanted full flexibility, all Angular.js code most Html is generated server-side. Not sure if that's best practice, but it definitively removes all limits on what can be shown on the screen.
+- since most elements on the page are randomly generated and I wanted full flexibility, all Angular.js code and most Html is generated server-side. Not sure if that's best practice, but it definitively removes all limits on what can be shown on the screen.
 - due to the growing complexity I had to restructure the code a couple of times. Now things appear to be logically structured and decently named.
