@@ -11,7 +11,7 @@ Oh and we briefly heard that out there, aparently people were using this for  [r
 
 This is of course unacceptable, so I made linear-optimization.com
 
-Using the [Microsoft Solver Foundation} (http://msdn.microsoft.com/en-us/library/ff524509%28v=vs.93%29.aspx) (deprecated, so next project might be with [Frontline Solver](http://www.solver.com/))
+Using the [Microsoft Solver Foundation] (http://msdn.microsoft.com/en-us/library/ff524509%28v=vs.93%29.aspx) (deprecated, so next project might be with [Frontline Solver](http://www.solver.com/))
 
 
  
