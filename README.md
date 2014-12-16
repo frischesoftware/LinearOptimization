@@ -17,7 +17,6 @@ Notes:
 - unless you need it for class, skip the simplex algorithm and use the Solver that comes with Excel or Open Office Calc
 - "interesting problem" means that a solution is likely avoid the trivial solution (e.g. 100 of A, 0 of B and 0 of C) in favour of a solution that cannot be found intuitively or by trial-and-error.
 - currently supported problem types are the standard production planning problem (see first paragraph) and the [Travelling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem). Honestly, the later one is probably not so easy to formulate either Simplex or Solver, so don't hesitate to check the tutorial or search around the web.
-- 
 
 
  
