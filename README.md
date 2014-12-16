@@ -14,9 +14,17 @@ This is of course unacceptable, so I made linear-optimization.com
 Using the [Microsoft Solver Foundation] (http://msdn.microsoft.com/en-us/library/ff524509%28v=vs.93%29.aspx) (deprecated, so for the next project I might be with [Frontline Solver](http://www.solver.com/)) I randomly create interesting linear optimization problems for various problem types and complexity/difficulty levels. The user may try to solve and enter their answer and get a little feedback as well.
 
 Notes: 
+------
 - unless you need it for class, skip the simplex algorithm and use the Solver that comes with Excel or Open Office Calc
 - "interesting problem" means that a solution is likely avoid the trivial solution (e.g. 100 of A, 0 of B and 0 of C) in favour of a solution that cannot be found intuitively or by trial-and-error.
-- currently supported problem types are the standard production planning problem (see first paragraph) and the [Travelling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem). Honestly, the later one is probably not so easy to formulate either Simplex or Solver, so don't hesitate to check the tutorial or search around the web.
+- currently supported problem types are the standard production planning problem (see first paragraph) and the [Knapsack Problem](https://en.wikipedia.org/wiki/Knapsack_problem). Some work done on the [Travelling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem), but this might end up too difficult and abstract for a wide audience
 
-
+Todo:
+-----
+- fix the CSS. Sorry, but since all scenarios are fairly random, the little bill-of-material-boxes for the production problem are all dynamically generated and placed on the screen as they fit. 
+- improve the "Learn" section: I found out that most people have forgotten all about linear optimization and need good instructions
+- add more motivational elements: a story, a sense of progression for the user
+- add more intesting problems, possibly compound problems (e.g. a factory whose output is constrained by truck capacity would combine production planning and the Knapsack problem) without making it too difficult and inaccessible
  
+Technology:
+-----------
